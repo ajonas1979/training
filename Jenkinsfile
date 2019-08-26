@@ -30,4 +30,9 @@
      }
    }
 
+   stage('Addon') {
+     node {
+       sh 'echo "H3ll0 W0rld!"'
+     }
+   }
 
